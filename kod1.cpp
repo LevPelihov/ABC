@@ -1,9 +1,8 @@
 #include <iostream>
 using namespace std;
 int main() {
-    setlocale(LC_ALL, "Russian");
     int a, b, c, z;
-    cout << "¬ведите число:";
+    cout << "Enter the number: ";
     cin >> a;
     b = a *a ;
     c = b * b ;

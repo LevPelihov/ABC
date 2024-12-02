@@ -1,11 +1,10 @@
 #include <iostream>
 using namespace std;
 int main() {
-    setlocale(LC_ALL, "Russian");
     int a, b;
-    cout << "¬ведите число a: ";
+    cout << "Enter the number a: ";
     cin >>a;
-    cout << "¬ведите число b: ";
+    cout << "Enter the number b:";
     cin >>b;
     if(a < 0 || b < 0) {
        a = abs(a);
